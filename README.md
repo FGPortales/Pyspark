@@ -42,7 +42,15 @@ Spark se basa en el motor computacional, lo que significa que se encarga de la p
 - **top:** Toma valores de los resultados finales de un RDD.
 - **reduce:** Combinar diferentes valores para un valor clave, permite hacer agregacion.
 
- 
+### Pares (clave, valor)
+- **reduceByKey():** combina todos los valores encontrados para una clave.
+- **groupByKey():** Agrupa valores con una misma clave.
+- **sortByKey():** Clasifica RDD por clave.
+- **keys(), values():** Crea un RDD con solo las claves o solo los valores.
+
+### Mapeo en pares (clave, valor)
+- **mapValues()
+- **flatMapValues()
 
 ## Scripts
 ##### contador_ratings
