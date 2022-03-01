@@ -49,11 +49,11 @@ Spark se basa en el motor computacional, lo que significa que se encarga de la p
 - **keys(), values():** Crea un RDD con solo las claves o solo los valores.
 
 ### Mapeo en pares (clave, valor)
-- **mapValues()
-- **flatMapValues()
+- **mapValues()**
+- **flatMapValues()**
 
 ### Filtrado RDD (clave, valor)
-- **filter()
+- **filter()**
 
 ## Scripts
 ##### contador_ratings
