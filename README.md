@@ -52,6 +52,15 @@ Spark se basa en el motor computacional, lo que significa que se encarga de la p
 - **mapValues()
 - **flatMapValues()
 
+### Filtrado RDD (clave, valor)
+- **filter()
+
 ## Scripts
 ##### contador_ratings
  > Se evalua la cantidad de ratings según las valoraciones dadas por usuario (1,2,3,4,5)
+##### amigos_por_edad
+ > Se evalua el promedio de amigos por edad.
+##### tem_minima
+ > Se evalua la temperatura minima por clave.
+##### tem_maxima
+ > Se evalua la temperatura máxima por clave.
