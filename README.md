@@ -28,11 +28,11 @@ Spark se basa en el motor computacional, lo que significa que se encarga de la p
 
 ### Transformando RDD's
 - **map:** permite tomar un set de datos y transformarlo a otro dada una función que lo haga, por ejemplo si se desea sacar el cuadrado de tu set de datos, puedes crear un mapa que apunta a una función que multiplica los numeros por si mismos.
-- - **flatmap:** Tiene la misma función que map() pero puede producir varios outputs dado 1 solo Input.
-- - **filter:** Filtra datos que no quieres que sean procesados del set de datos.
-- - **distinct:** Ayuda a obtener los datos específicos en un set de datos.
-- - **sample:** Permite tomar muestras de datos del RDD para hacer un experimento.
-- - **Union, Intersection, substract, cartesian:** Puedes hacer intersecciones entre RDD's, Por ejemplo **cartesian** te da las posibles combinaciones del RDD.
+- **flatmap:** Tiene la misma función que map() pero puede producir varios outputs dado 1 solo Input.
+- **filter:** Filtra datos que no quieres que sean procesados del set de datos.
+- **distinct:** Ayuda a obtener los datos específicos en un set de datos.
+- **sample:** Permite tomar muestras de datos del RDD para hacer un experimento.
+- **Union, Intersection, substract, cartesian:** Puedes hacer intersecciones entre RDD's, Por ejemplo **cartesian** te da las posibles combinaciones del RDD.
 
 ### Acciones en un RDD
 - **collect:** recolecta todos los valores del RDD.
@@ -49,9 +49,18 @@ Spark se basa en el motor computacional, lo que significa que se encarga de la p
 - **keys(), values():** Crea un RDD con solo las claves o solo los valores.
 
 ### Mapeo en pares (clave, valor)
-- **mapValues()
-- **flatMapValues()
+- **mapValues()**
+- **flatMapValues()**
+
+### Filtrado RDD (clave, valor)
+- **filter()**
 
 ## Scripts
 ##### contador_ratings
  > Se evalua la cantidad de ratings según las valoraciones dadas por usuario (1,2,3,4,5)
+##### amigos_por_edad
+ > Se evalua el promedio de amigos por edad.
+##### tem_minima
+ > Se evalua la temperatura minima por clave.
+##### tem_maxima
+ > Se evalua la temperatura máxima por clave.
